@@ -26,7 +26,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
-    <ApplicationInsightsResourceId>/subscriptions/c787e42d-4cce-49bf-a239-40d0e4d0ef78/resourcegroups/Dcsr/providers/microsoft.insights/components/DcsrReplicationSender</ApplicationInsightsResourceId>
+    <ApplicationInsightsResourceId>REDACTED</ApplicationInsightsResourceId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
