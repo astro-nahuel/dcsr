@@ -14,7 +14,7 @@
   "variables": {
     "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('resourcesName'))]",
     "storageAccountId": "[resourceId('Microsoft.Storage/storageAccounts', parameters('resourcesName'))]",
-    "storageAccountConnectionStringFormat": "DefaultEndpointsProtocol=https;AccountName={0};AccountKey=REDACTED;EndpointSuffix=core.windows.net",
+    "storageAccountConnectionStringFormat": "DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1};EndpointSuffix=core.windows.net",
     "storageAccountsApiVersion": "2019-06-01",
     "webApiVersion": "2019-08-01",
     "notificationUrlFormat": "https://{0}.azurewebsites.net/api/webhooks/incoming/graph?code={1}",
